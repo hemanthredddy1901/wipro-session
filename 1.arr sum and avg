@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class sumavgarr
+{
+ public static void main(String args[])
+{
+   int sum=0;
+   float avg;
+ int a[]=new int[5];
+ Scanner sc=new Scanner(System.in);
+  for(int i=0;i<a.length;i++)
+   {
+     System.out.println("engter the array of"+i+"element");
+       a[i]=sc.nextInt();
+     }
+  for(int i=0;i<a.length;i++)
+     {
+        sum=sum+a[i];
+         }
+   System.out.println("sum of the array elements is"+sum);
+ avg=sum/a.length;
+System.out.println("avg of the array elements is"+avg(f);
+}
+}
+     
+         
